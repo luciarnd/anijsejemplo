@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AniJS</title>
+    <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
+</head>
+<body>
+    <div style="display: flex; flex-direction: row;">
+        <div id="blue" style="background-color: darkcyan; border: 1px; width: 10%; padding: 50px; border-radius: 20px; margin: 20px;" data-anijs="if: mouseover, on: #blue, do: bounce animated">
+            <br>
+            <br>
+        </div>
+        <div id="yellow" style="background-color: rgb(253, 197, 11); border: 1px; width: 10%; padding: 50px; border-radius: 20px; margin: 20px;" data-anijs="if: mouseover, on: #yellow, do: flash animated">
+            <br>
+            <br>
+        </div>
+        <div id="red" style="background-color: rgb(235, 59, 59); border: 1px; width: 10%; padding: 50px; border-radius: 20px; margin: 20px;" data-anijs="if: mouseover, on: #red, do: fadeOutDown animated">
+            <br>
+            <br>
+        </div>
+    </div>
+    <script src="bower_components/AniJS/dist/anijs-min.js"></script>
+</body>
+</html>
